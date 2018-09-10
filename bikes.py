@@ -1,5 +1,6 @@
+import matplotlib
+matplotlib.use("agg")
 import matplotlib.pyplot as plt
-import pandas as pd
 
 
 def get_velo_data(location):
